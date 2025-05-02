@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator 01</title>
+    <link rel="stylesheet" href="Calculator.css">
+  </head>
+  <body>
+    <p class="js-text"></p>
+
+    <button class="numbers" onclick="
+      val1+='1';
+      numberOnScreen();
+      console.log(`${val1}`);
+      ">
+      1
+    </button>
+
+    <button class="numbers" onclick="
+    val1 += '2';
+    numberOnScreen();
+    console.log(`${val1}`);
+    ">
+      2
+    </button>
+
+    
+    <button class="numbers" onclick="
+    val1 += '3';
+    numberOnScreen();
+    console.log(`${val1}`);
+    ">
+      3
+    </button>
+
+    
+    <button class="operators" onclick="
+    val1 += '+';
+    numberOnScreen();
+    console.log(`${val1}`);
+    ">
+      +
+    </button> 
+    <br><br>
+
+    
+    <button class="numbers" onclick="
+    val1 += '4';
+    numberOnScreen();
+    console.log(`${val1}`);
+    ">
+      4
+    </button>
+
+    
+    <button class="numbers" onclick="
+    val1 += '5';
+    numberOnScreen();
+    console.log(`${val1}`);
+    ">
+      5
+    </button>
+
+    
+    <button class="numbers" onclick="
+    val1 += '6';
+    numberOnScreen();
+    console.log(`${val1}`);
+    ">
+      6
+    </button>
+
+    <button class="operators" onclick="
+    val1 += '-';
+    numberOnScreen();
+    console.log(`${val1}`);
+    ">
+      -
+    </button>
+    <br><br>
+    
+    <button class="numbers" onclick="
+    val1 += '7';
+    numberOnScreen();
+    console.log(`${val1}`);
+    ">
+      7
+    </button>
+
+    
+    <button class="numbers" onclick="
+    val1 += '8';
+    numberOnScreen();
+    console.log(`${val1}`);
+    ">
+      8
+    </button>
+
+    
+    <button class="numbers" onclick="
+    val1 += '9';
+    numberOnScreen();
+    console.log(`${val1}`);
+    ">
+      9
+    </button>
+
+    
+    <button class="operators" onclick="
+    val1 += '*';
+    numberOnScreen();
+    console.log(`${val1}`);
+    ">
+      *
+    </button>
+    <br><br>
+
+    
+    <button class="numbers" onclick="
+    val1 += '0';
+    numberOnScreen();
+    console.log(`${val1}`);
+    ">
+      0
+    </button>
+
+    
+    <button class="numbers" onclick="
+    val1 += '.';
+    numberOnScreen();
+    console.log(`${val1}`);
+    ">
+      .
+    </button>
+
+    
+    
+    <button class="numbers" onclick="
+    val1 = eval(val1);
+    numberOnScreen();
+    console.log(`${val1}`);
+    ">
+      =
+    </button>
+
+    
+    <button class="operators" onclick="
+    val1 += '/';
+    numberOnScreen();
+    console.log(`${val1}`);
+    ">
+      /
+    </button><br> <br>
+
+
+    
+    <button class="numbers clear" onclick="
+    val1 = '';
+    document.querySelector('.js-text').innerHTML='0';
+    console.log(`cleared`);
+    ">
+      Clear
+    </button>
+
+    <script src="Calculator.js">
+    </script>
+  </body>
+</html>
+
+<!-- Completed on 12-03-2025 -->
